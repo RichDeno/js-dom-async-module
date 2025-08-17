@@ -6,6 +6,38 @@
     <title>Interactive To-do-list</title>
 </head>
 <body>
-    
+    <div class="wrap">
+        <div class="card">
+            <h1>Interactive To Do List</h1>
+            <ul id="todo-list" role="list">
+                <li class="task" tabindex="0" role="checkbox" aria-checked="false">
+                    <span class="task-text">Buy groceries</span>
+                    <button type="button" class="check" aria-hidden="true" title="Completed" tabindex="-1">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </button>
+                </li>
+                <li class="task" tabindex="0" role="checkbox" aria-checked="false">
+                    <span class="task-text">Reply to emails</span>
+                    <button type="button" class="check" aria-hidden="true" title="Completed">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </button>
+                </li>
+                <li class="task" tabindex="0" role="checkbox" aria-checked="false">
+                    <span class="task-text">Hit the gym</span>
+                    <button type="button" class="check" aria-hidden="true" title="Completed">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </button>
+                </li>
+                <li class="task" tabindex="0" role="checkbox" aria-checked="false">
+                    <span class="task-text">Develop the minutes of meeting</span>
+                    <button type="button" class="check" aria-hidden="true" title="Completed">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </button>
+                </li>
+            </ul>
+            <p class="hint">Tip: Click an item (or press Enter / Space) to toggle between complete. The green color and the tick indicate completion.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
