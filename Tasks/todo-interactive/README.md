@@ -26,4 +26,4 @@ A user-friendly to-do list app that allows adding, completing, and toggling task
 
 ### 📷 Preview
 
-![Interactive To-Do List Screenshot](<Interactive to-do list.png>)
+![Interactive To-Do List Screenshot](<../../asset/Interactive to-do list.png>)
